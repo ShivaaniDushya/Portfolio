@@ -6,9 +6,9 @@ import './header.css'
 
 const navigation = [
     { name: 'HOME', href: '/', current: false },
-    { name: 'GIT PROJECTS', href: '#', current: false },
-    { name: 'BLOGS', href: '#', current: false },
-    { name: 'YOUTUBE', href: '#', current: false },
+    { name: 'GIT PROJECTS', href: '/git', current: false },
+    { name: 'BLOGS', href: '/blogs', current: false },
+    { name: 'YOUTUBE', href: '/youtube', current: false },
     { name: 'DESIGNS', href: '/designs', current: false },
   ]
 
