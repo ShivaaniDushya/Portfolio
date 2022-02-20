@@ -2,6 +2,9 @@ import React from "react";
 import './home.css';
 import { Facebook , LinkedIn, GitHub } from '@mui/icons-material';
 import Box from '@mui/material/Box';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
 
 
 const features = [
@@ -553,32 +556,60 @@ const Home = () => {
           <br/>
           <br/>
           <br/>
+          <br/>
           <hr/>
         </div>
 
-        <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-4 sm:gap-y-16 lg:gap-x-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          
+          <br/>
+          <br/>
+          <br/>
+          <br/>
+        <div className="lg:text-center">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Contact Info
+          </p>
+        </div>
+        </div>
+<br/>
+        <Card sx={{ minWidth: 275 }}>
+      <CardContent>
+        <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
           
           <div className="border-t border-gray-200 pt-4">
+            <dt className="sm:text-2xl font-medium text-gray-900">Mobile</dt>
+            <dd className="sm:text-2xl mt-2 text-sm text-gray-500">+94 76 802 4263</dd>
+          </div>
+          <div className="border-t border-gray-200 pt-4">
+            <dt className="sm:text-2xl font-medium text-gray-900">Email</dt>
+            <dd className="sm:text-2xl mt-2 text-sm text-gray-500">rsdushya@gmail.com</dd>
+          </div>
+          <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">LinkedIn</dt>
-            <a href="https://drive.google.com/file/d/1-pb13ZCmyhy_di4L7BvhXVbEi-MWJY-X/view?usp=sharing">
-          <LinkedIn/>
-          </a>
+            <a href="https://www.linkedin.com/in/shivaani-dushya-rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.linkedin.com/in/shivaani-dushya-rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
-            <dt className="sm:text-2xl font-medium text-gray-900">Hello</dt>
-            <dd className="sm:text-1xl mt-2 text-sm text-gray-500">Hi</dd>
+            <dt className="sm:text-2xl font-medium text-gray-900">Facebook</dt>
+            <a href="https://www.facebook.com/shivaani.rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.facebook.com/shivaani.rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
-            <dt className="sm:text-2xl font-medium text-gray-900">Hello</dt>
-            <dd className="sm:text-1xl mt-2 text-sm text-gray-500">Hi</dd>
+            <dt className="sm:text-2xl font-medium text-gray-900">GitHub</dt>
+            <a href="https://github.com/ShivaaniDushya"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://github.com/ShivaaniDushya</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
-            <dt className="sm:text-2xl font-medium text-gray-900">Hello</dt>
-            <dd className="sm:text-1xl mt-2 text-sm text-gray-500">Hi</dd>
-          </div>
+            <dt className="sm:text-2xl font-medium text-gray-900">Instagram</dt>
+            <a href="https://www.instagram.com/shivaanidushya/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.instagram.com/shivaanidushya/</dd>
+          </a></div>
           
         
       </dl>
+      </CardContent>
+    </Card>
+          <br/>
+          <br/>
+          <br/>
+          <br/>
       </div>
     </div>
 
