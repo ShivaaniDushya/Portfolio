@@ -264,29 +264,29 @@ const Home = () => {
        {/* Education  */}
       <div>
         <div className="lg:text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl">
             Education
           </p></div>
         </div>
-        <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Sri Lanka Institute of Information Technology (SLIIT)</b><br/>
+        <p className="mt-12 text-gray-500 ">
+          <p className="text-2xl"><b>Sri Lanka Institute of Information Technology (SLIIT)</b><br/></p>
           <i>2020 - Present</i><br/>
           I am an IT Undergraduate at Sri Lanka Institute of Information Technology (SLIIT). I am doing Software Engineering as my specialization.
           
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>British Council of Sri Lanka</b><br/>
+          <p className="mt-12 text-gray-500">
+          <p className="text-2xl"><b>British Council of Sri Lanka</b><br/></p>
           <i>2019</i><br/>
           I have completed spoken english course in British Council of Sri Lanka. I got an overall 'A' grade in the Final Examination.
          </p>  
          </p>
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Co/St'Bridget's Convent</b><br/>
+          <p className="mt-12 text-gray-500">
+          <p className="text-2xl"><b>Co/St'Bridget's Convent</b><br/></p>
           <i>2016-2018</i><br/>
           I continued my G.C.E Advanced Level Studies in Co/St' Bridget's Convent. 
           And I was in Physical Science Stream. (Combined Mathematics - A, Chemistry - B, Physics - C, General English - A, GIT - A).
           </p> 
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Co/St'Anne's Girls'Maha Vidyalaya</b><br/>
+          <p className="mt-12 text-gray-500">
+          <p className="text-2xl"><b>Co/St'Anne's Girls'Maha Vidyalaya</b><br/></p>
           <i>2005-2015</i><br/>
           I have completed my G.C.E Oridinary Level Studies in Co/St' Anne's Girls' Maha Vidyalaya. I got 'A' grade for all subjects.
          </p> 
@@ -308,17 +308,17 @@ const Home = () => {
       
       <div>
         <div className="lg:text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl">
             Work Experience
           </p></div>
         </div>
-        <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Pearson Lanka (pvt) ltd</b><br/>
+        <p className="mt-12 text-gray-500">
+        <p className="text-2xl"><b>Pearson Lanka (pvt) ltd</b></p>
           <i>2021 Dec - Present</i><br/>
           I am a Software Engineering Intern at Pearson Lanka (pvt) ltd.
 
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>DFCC Bank PLC</b><br/>
+          <p className="mt-12 text-gray-500">
+          <p className="text-2xl"><b>DFCC Bank PLC</b></p>
           <i>2019-2021</i><br/>
           I worked as a Trainee Banking Assistant at DFCC Bank PLC. I have Experience 
           in Digital Channels Services, Corporate Account Documentation, and BOT Process Handling.
@@ -342,35 +342,35 @@ const Home = () => {
       
       <div>
         <div className="lg:text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl">
             Achievements
           </p></div>
 
         </div>
-        <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Designathon 2020</b><br/>
+        <p className="mt-12 text-gray-500">
+        <p className="text-2xl"><b>Designathon 2020</b></p>
           We created a UI/UX design for a health and fitness mobile application for the public. 
           We became the finalists and we created another UI/UX design for online learning management system.<br/><br/>
-          <a href="https://xd.adobe.com/view/b70eac74-4677-47d2-9817-4a06856f7a57-e25d/"><button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 border border-gray-400 rounded shadow">
+          <a href="https://xd.adobe.com/view/b70eac74-4677-47d2-9817-4a06856f7a57-e25d/"><button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow text-sm  ">
           Health and Fiteness app design
           </button></a>
 
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>IX 2021 - Designathon</b><br/>
+          <p className="mt-12 text-gray-500">
+          <p className="text-2xl"><b>IX 2021 - Designathon</b></p>
           For the first round of the IX, we created a UI/UX design for a Pet Store mobile application. 
           We became the finalists , and for the final round we created a UI/UX design for a vaccination tracking (covid-19) mobile application.
           </p> <br/>
-          <a href="https://www.figma.com/proto/KSoFiuSNNcVyKIab6ACZbb/Paws-%E2%80%98N-Furs?node-id=1%3A2&scaling=scale-down&page-id=0%3A1"><button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 border border-gray-400 rounded shadow">
+          <a href="https://www.figma.com/proto/KSoFiuSNNcVyKIab6ACZbb/Paws-%E2%80%98N-Furs?node-id=1%3A2&scaling=scale-down&page-id=0%3A1"><button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow text-sm">
           Pet Store app design
           </button></a> 
 
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Hackathon 2021</b><br/>
+          <p className="mt-12 text-gray-500">
+          <p className="text-2xl"><b>Hackathon 2021</b></p>
           In this competition we came up with a solution for a financial advisory mobile application. We became finalists.
           </p>
           <br/>
           <a href="https://mysliit-my.sharepoint.com/:p:/g/personal/it20006884_my_sliit_lk/EViMQVBwuMROsYFhyO_bP14BRs1nhxYyKA9c2f4fP9ZWDA?e=oO2k3s">
-          <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 border border-gray-400 rounded shadow">
+          <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow text-sm">
           PowerPoint Document
           </button></a> 
          </p>
@@ -398,32 +398,82 @@ const Home = () => {
           </p></div>
 
         </div>
-        <p className="mt-12 text-gray-500 text-2xl ">
-          <b>IX 2021 - Designathon</b><br/>
-          <br/>
-          <a href="https://drive.google.com/file/d/1CwN7dL307rWhW9fw1yei0ycsVQIDPY04/view?usp=sharing">
-          <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 border border-gray-400 rounded shadow">
-          Presentation Video
-          </button></a> <br/><br/>
-          <img src="./images/speaking/IX.jpg"/>
-          <br/>
+        
 
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Mini Hackathon 2021 - Organized by the MS Club of SLIIT</b><br/>
-          </p> <br/>
-          <a href="https://drive.google.com/file/d/1-pb13ZCmyhy_di4L7BvhXVbEi-MWJY-X/view?usp=sharing">
-          <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-4 border border-gray-400 rounded shadow">
-          Presentation Video
-          </button></a> <br/><br/>
-          <img src="./images/speaking/mini hackathon.jpg"/>
+          <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+      
+          <img
+            src="./images/speaking/IX2.jpg"
+            alt="Shivaanio Dushya"
+            className="bg-gray-100 rounded-lg"
+            width={1000}
+            height={1000}
+          />
+        
+        </div>
 
-         </p>
- 
+      <div>
+        
+        <p className="mt-5 text-gray-500 sm:text-2xl">
+        IX 2021 - Designathon
+        </p>
+        <p className="mt-5 text-gray-500 sm:text-lg">
+        I have done the Final Presentation speech in the IX 2021 - Designathon Final Competition.
+        </p><br/>
+        <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
+          Presentation Video
+          </button>
+        
+      <br/>
+      <br/>
+
+      <div className="xl:grid-cols-32 xl:gap-x-4">
+
+      </div>
+      </div>
+      
+    </div>
+
+
+    <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-2 gap-x-8 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+      
+          <img
+            src="./images/speaking/mini hackathon2.jpg"
+            alt="Shivaanio Dushya"
+            className="bg-gray-100 rounded-lg"
+            width={1000}
+            height={1000}
+          />
+        
+        </div>
+
+      <div>
+        
+        <p className="mt-5 text-gray-500 sm:text-2xl">
+        Mini Hackathon 2021
+        </p>
+        <p className="mt-5 text-gray-500 sm:text-lg">
+        I have done the Presentation speech in the Initial Round of Mini Hackathon 2021.
+        </p><br/>
+        <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
+          Presentation Video
+          </button>
+        
+      <br/>
+      <br/>
+        
+  
+      </div>
+      <br/>
+      
+      
+    </div>
+
          <br/>
         <br/>
-        <br/>
-        <br/>
-        <br/>
+
         </div>
 
 
@@ -505,7 +555,7 @@ const Home = () => {
         <div>
         
  
-
+            {/* Volunteer Experience */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           <br/>
@@ -513,10 +563,11 @@ const Home = () => {
           <br/>
           <br/>
         <div className="lg:text-center">
-          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-3xl">
             Volunteer Experience
           </p>
         </div>
+
         </div>
         <p className="mt-12 text-gray-500 text-2xl ">
           {/* <b>IX 2021 - Designathon</b><br/> */}
@@ -525,35 +576,94 @@ const Home = () => {
           Also I have done several sessions under different Technologies.
           </p> <br/>
 
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>Level Up Session</b><br/>
-          I have done the very first level up session, conducted by the MS Club of SLIIT. My topic was 
-          "Restful Web Services with Spring Boot"
-          <br/><br/>
-          <img src="images/speaking/levelup.jpg" width={1500}/>
-          
-          </p> <br/><br/>
+
+          <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-2 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+      
+          <img
+            src="images/speaking/levelup2.jpg"
+            alt="Shivaani Dushya"
+            className="bg-gray-100 rounded-lg"
+            width={1000}
+            height={1000}
+          />
         
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>ITP Guide 3.0 - Session 1</b><br/>
-          ITP Guide (Industry Training Project) was a special event , which was organized and conducted by the MS Club of SLIIT for the past two years.<br/>
+        </div>
+
+          <div>
+            
+            <p className="mt-5 text-gray-500 sm:text-2xl">
+            Level Up Session
+            </p>
+            <p className="mt-5 text-gray-500 sm:text-lg">
+            I have done the very first level up session, conducted by the MS Club of SLIIT. My topic was 
+              "Restful Web Services with Spring Boot"
+            </p><br/>
+
+          </div>
+          
+        </div>
+
+
+        <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+          <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+      
+          <img
+            src="./images/speaking/API.png"
+            alt="Shivaani Dushya"
+            className="bg-gray-100 rounded-lg"
+            width={1000}
+            height={1000}
+          />
+        
+        </div>
+
+      <div>
+
+
+        
+        
+        <p className="mt-5 text-gray-500 sm:text-2xl">
+        ITP Guide 3.0 - Session 2
+        </p>
+        <p className="mt-5 text-gray-500 sm:text-lg">
+        ITP Guide (Industry Training Project) was a special event , which was organized and conducted by the MS Club of SLIIT for the past two years.<br/>
           On 16th of January 2022, we conducted the ITP Guide for the third consecutive time. The event mainly focuses on
           giving an awareness on how to create industry level projects. <br/>
           I have done a session on "Introduction to Restful Web Services and Postman". 
-          </p> <br/><br/>
-          <img src="images/speaking/API.png" width={1500}/><br/><br/>
+        </p><br/>
+
+      </div>
+      
+    </div>
 
 
-          <p className="mt-12 text-gray-500 text-2xl ">
-          <b>ITP Guide 3.0 - Session 2</b><br/>
+      <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+            <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+        
+            <img
+              src="./images/speaking/session2.jpg"
+              alt="Shivaanio Dushya"
+              className="bg-gray-100 rounded-lg"
+              width={1000}
+              height={1000}
+            />
+          
+          </div>
+
+        <div>
+          
+          <p className="mt-5 text-gray-500 sm:text-2xl">
+          ITP Guide 3.0 - Session 1
+          </p>
+          <p className="mt-5 text-gray-500 sm:text-lg">
           In this session, we mainly focussed on giving a hands-on experience with Spring Boot, MongoDB, Angular, Heroku and Firebase. <br/>
           As the first part me and my colleague created a Todo Application using Spring Boot and MongoDB.
-          <br/><br/>
-          <img src="images/speaking/session2.jpg" width={1500}/>
-          
-          </p> 
-          <br/>
-          <br/>
+          </p><br/>
+
+        </div>
+        
+      </div>
           <br/>
           <br/>
           <br/>
@@ -562,6 +672,7 @@ const Home = () => {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
+          <br/>
           <br/>
           <br/>
           <br/>
