@@ -686,7 +686,7 @@ const Home = () => {
 <br/>
         <Card sx={{ minWidth: 275 }}>
       <CardContent>
-        <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
+        <dl className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">Mobile</dt>
