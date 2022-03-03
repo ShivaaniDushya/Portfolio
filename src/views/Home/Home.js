@@ -35,7 +35,7 @@ const bull = (
     {
       id: 2,
       name: 'C++',
-      imageSrc: './images/tools/c++.png',
+      imageSrc: './images/icons/c++.png',
       imageAlt: 'C++',
     },
     {
@@ -99,91 +99,91 @@ const bull = (
     {
       id: 1,
       name: 'VS Code',
-      imageSrc: './images/tools/vscode.png',
+      imageSrc: './images/icons/vscode.png',
       imageAlt: 'C',
     },
     {
       id: 2,
       name: 'IntelliJ',
-      imageSrc: './images/tools/in.png',
+      imageSrc: './images/icons/intellij.png',
       imageAlt: 'C++',
     },
     {
       id: 3,
       name: 'Eclipse',
-      imageSrc: './images/tools/eclipse.png',
+      imageSrc: './images/icons/eclipse.png',
       imageAlt: 'Java',
     },
     {
       id: 4,
       name: 'Android Studio',
-      imageSrc: './images/tools/andro.png',
+      imageSrc: './images/icons/android.png',
       imageAlt: 'JavaScript',
     },
     {
       id: 5,
       name: 'MySQL',
-      imageSrc: './images/tools/mysql.png',
+      imageSrc: './images/icons/mysql.png',
       imageAlt: 'TypeScript',
     },
     {
       id: 6,
       name: 'MSSQL',
-      imageSrc: './images/tools/mssql.png',
+      imageSrc: './images/icons/mssql.png',
       imageAlt: 'PHP',
     },
     {
       id: 7,
       name: 'MongoDB',
-      imageSrc: './images/tools/MongoDB.png',
+      imageSrc: './images/icons/mongo.png',
       imageAlt: 'HTML',
     },
     {
       id: 8,
       name: 'SQLite',
-      imageSrc: './images/tools/sqlite-logo.png',
+      imageSrc: './images/icons/sqlite.png',
       imageAlt: 'CSS',
     },
     {
       id: 9,
       name: 'GitHub',
-      imageSrc: './images/tools/github.png',
+      imageSrc: './images/icons/github.png',
       imageAlt: 'MySQL',
     },
     {
       id: 10,
       name: 'GitLab',
-      imageSrc: './images/tools/lab.png',
+      imageSrc: './images/icons/gitlab.png',
       imageAlt: 'C++',
     },
     {
       id: 11,
       name: 'Figma',
-      imageSrc: './images/tools/figma.png',
+      imageSrc: './images/icons/figma.png',
       imageAlt: 'Angular',
     },
     {
       id: 12,
       name: 'Canva',
-      imageSrc: './images/tools/canva.png',
+      imageSrc: './images/icons/canva.png',
       imageAlt: 'Spring Boot',
     },
     {
       id: 13,
       name: 'Linux',
-      imageSrc: './images/tools/Linux-Logo.png',
+      imageSrc: './images/icons/linux.png',
       imageAlt: 'Spring Boot',
     },
     {
       id: 14,
       name: 'Adobe Photoshop',
-      imageSrc: './images/tools/photoshop.png',
+      imageSrc: './images/icons/ps.png',
       imageAlt: 'Spring Boot',
     },
     {
       id: 15,
       name: 'BrowserStack',
-      imageSrc: './images/tools/browserstack.png',
+      imageSrc: './images/icons/browser.png',
       imageAlt: 'Spring Boot',
     },
     
@@ -202,9 +202,10 @@ const Home = () => {
           Public Speaking.
         </p>
         <br/>
-        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+        <a href="https://drive.google.com/file/d/1oZ3dI5MgIyKrzhdUmy3HKrVzrzbWczl4/view?usp=sharing">
+          <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
         Download CV
-      </button>
+      </button></a>
       <br/>
       <br/>
 
@@ -421,10 +422,10 @@ const Home = () => {
         <p className="mt-5 text-gray-500 sm:text-lg">
         I have done the Final Presentation speech in the IX 2021 - Designathon Final Competition.
         </p><br/>
-        <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
+        <a href="https://drive.google.com/file/d/1CwN7dL307rWhW9fw1yei0ycsVQIDPY04/view?usp=sharing"><button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
           Presentation Video
           </button>
-        
+        </a>
       <br/>
       <br/>
 
@@ -457,10 +458,10 @@ const Home = () => {
         <p className="mt-5 text-gray-500 sm:text-lg">
         I have done the Presentation speech in the Initial Round of Mini Hackathon 2021.
         </p><br/>
-        <button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
+        <a href="https://drive.google.com/file/d/1-pb13ZCmyhy_di4L7BvhXVbEi-MWJY-X/view?usp=sharing"><button class="bg-white hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
           Presentation Video
           </button>
-        
+        </a>
       <br/>
       <br/>
         
@@ -495,7 +496,7 @@ const Home = () => {
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         {/* <h2 className="sr-only">Products</h2> */}
 
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-64">
+        <div className="grid grid-cols-4 gap-y-10 sm:grid-cols-3 gap-x-32 lg:grid-cols-5 xl:grid-cols-6 xl:gap-x-32 ">
           {products.map((product) => (
             <a key={product.id} className="group">
               <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
@@ -532,10 +533,10 @@ const Home = () => {
         <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         {/* <h2 className="sr-only">Products</h2> */}
 
-        <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-64">
+        <div className="grid grid-cols-4 gap-y-10 sm:grid-cols-3 gap-x-32 lg:grid-cols-5 xl:grid-cols-6 xl:gap-x-32 ">
           {tools.map((tool) => (
             <a key={tool.id} className="group">
-              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+              <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8 ">
                 <img
                   src={tool.imageSrc}
                   alt={tool.imageAlt}
@@ -605,11 +606,11 @@ const Home = () => {
         </div>
 
 
-        <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+        <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
       
           <img
-            src="./images/speaking/API.png"
+            src="./images/speaking/restapi.jpg"
             alt="Shivaani Dushya"
             className="bg-gray-100 rounded-lg"
             width={1000}
@@ -638,7 +639,7 @@ const Home = () => {
     </div>
 
 
-      <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+      <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
             <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
         
             <img
@@ -662,8 +663,23 @@ const Home = () => {
           </p><br/>
 
         </div>
+
+        
         
       </div>
+
+          <p className="mt-12 text-gray-500 text-2xl ">
+          <b>Development Contributions </b>
+          </p>
+          
+          <p className="mt-12 text-gray-500 text-lg ">
+          <b>MS Club Website Admin Panel</b> - <a href="https://github.com/ms-club-sliit/msclub-admin-panel">https://github.com/ms-club-sliit/msclub-admin-panel</a><br/>
+          <b>MS Club website Backend</b> - <a href="https://github.com/ms-club-sliit/msclub-backend">https://github.com/ms-club-sliit/msclub-backend</a><br/>
+          <b>ITP Guide session 2 - Backend</b> - <a href="https://github.com/ms-club-sliit/itp-guide-3.0-backend">https://github.com/ms-club-sliit/itp-guide-3.0-backend</a><br/>
+          </p>
+          
+          <br/>
+          <br/>
           <br/>
           <br/>
           <br/>
@@ -686,7 +702,7 @@ const Home = () => {
 <br/>
         <Card sx={{ minWidth: 275 }}>
       <CardContent>
-        <dl className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+        <dl className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-6 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">Mobile</dt>
@@ -729,3 +745,7 @@ const Home = () => {
 };
 
 export default Home;
+
+
+
+  
