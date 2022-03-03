@@ -91,7 +91,7 @@ const Header = () => {
                         
                       </Menu.Button>
                     </div>
-                    <Transition
+                    {/* <Transition
                       as={Fragment}
                       enter="transition ease-out duration-100"
                       enterFrom="transform opacity-0 scale-95"
@@ -133,7 +133,7 @@ const Header = () => {
                         </Menu.Item>
                         
                       </Menu.Items>
-                    </Transition>
+                    </Transition> */}
                   </Menu>
                 </div>
               </div>
