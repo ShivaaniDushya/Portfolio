@@ -574,7 +574,7 @@ const Home = () => {
           {/* <b>IX 2021 - Designathon</b><br/> */}
           I am a Committee member of MS Club of SLIIT. I contribute to the development of the club by Contributing 
           to the GitHub Repository, Designing Flyers and Marketing the Posts. 
-          Also I have done several sessions under different Technologies..
+          Also I have done several sessions under different Technologies.
           </p> <br/>
 
 
@@ -717,7 +717,7 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/shivaani-dushya-rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.linkedin.com/in/shivaani-dushya-rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
-            <dt className="sm:text-2xl font-medium text-gray-900">Facebook</dt>
+            <dt className="sm:text-2xl font-medium text-gray-900">Facebook Facebook</dt>
             <a href="https://www.facebook.com/shivaani.rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.facebook.com/shivaani.rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
