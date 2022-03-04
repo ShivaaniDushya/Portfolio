@@ -573,8 +573,8 @@ const Home = () => {
         <p className="mt-12 text-gray-500 text-2xl ">
           {/* <b>IX 2021 - Designathon</b><br/> */}
           I am a Committee member of MS Club of SLIIT. I contribute to the development of the club by Contributing 
-          to the GitHub Repository, Designing Flyers and Marketing the Posts.
-          Also I have done several sessions under different Technologies.
+          to the GitHub Repository, Designing Flyers and Marketing the Posts. 
+          Also I have done several sessions under different Technologies..
           </p> <br/>
 
 
