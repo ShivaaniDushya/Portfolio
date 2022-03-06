@@ -5,6 +5,13 @@ const Github = () => {
     return(
         <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-1">
         <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">GitHub Username - ShivaaniDushya</h2>
+        <h7 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
+        <a href="https://github.com/ShivaaniDushya">
+        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+        Profile
+        </button>
+        </a>
+        </h7>
 
 
           <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-3 ">
@@ -82,6 +89,17 @@ const Github = () => {
                 This is a web application which have been created to show a demo for the students.
                 Springboot and mongodb were used for implementation.<br/><br/><br/>
                 <b>https://github.com/ms-club-sliit/itp-guide-3.0-backend</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ms-club-sliit/itp-guide-3.0-backend'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Redux Toolkit sample</h2><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This Repository contains both Redux and Redux Toolkit Related Codes. Sample example 
+                on how to create state managemnet using Redux vs Redux-Toolkit<br/><br/><br/>
+                <b>https://github.com/ShivaaniDushya/sample-redux</b>
             </h2>
             </a>
             </div>
