@@ -1,116 +1,140 @@
 import React from "react";
 
-// const callouts = [
-//     {
-//       description: 'Gaming Platform - Black theme',
-//       imageSrc: './images/designs/Game black theme.jpg',
-//     },
-//     {
-//       description: 'Gaming Platform - Blue theme',
-//       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
-//     },
-//     {
-//       description: 'Daily commute essentials',
-//       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-//     },
-//   ]
+const images = [
+  {
+    id : 1,
+    name: '- Gaming Platform Black Theme',
+    src : './images/designs/Game black theme.jpg'
+  },
+  {
+    id : 2,
+    name: '- Gaming Platform Blue Theme',
+    src : './images/designs/Game blue theme.jpg'
+  },
+  {
+    id : 3,
+    name: '- Music Player White Theme',
+    src : './images/designs/Music.jpg'
+  },
+  {
+    id : 4,
+    name: '- Music Player Dark Theme',
+    src : './images/designs/Music dark.jpg'
+  },
+  {
+    id : 5,
+    name: '- Bauhaus Effect Design',
+    src : './images/designs/bauhaus-modified.jpg'
+  },
+  {
+    id : 6,
+    name: '- E-Commerce Site',
+    src : './images/designs/e-commerce5.jpg'
+  },
+  {
+    id : 7,
+    name: '- Messaging App',
+    src : './images/designs/Direct messaging.jpg'
+  },
+  {
+    id : 8,
+    name: '- User Profile',
+    src : './images/designs/User Profile.jpg'
+  },
+  {
+    id : 9,
+    name: '- Slicer Effect',
+    src : './images/designs/canve first design - SHIVI.png'
+  },
+  {
+    id : 10,
+    name: '- App Icon design',
+    src : './images/designs/App icon.jpg'
+  },
+  {
+    id : 11,
+    name: '- Calculator Design',
+    src : './images/designs/Calculator.jpg'
+  },
+  {
+    id : 12,
+    name: '- Card Checkout Design',
+    src : './images/designs/Credit card.jpg'
+  },
+  {
+    id : 13,
+    name: '- A Landing Page',
+    src : './images/designs/Landing.jpg'
+  },
+  {
+    id : 14,
+    name: '- Glassmorphism Effect',
+    src : './images/designs/Glassmorphism.jpg'
+  },
+  {
+    id : 15,
+    name: '- SignUp Page',
+    src : './images/designs/SignUp Page.jpg'
+  },
+  {
+    id : 16,
+    name: '- SignUp Page 2',
+    src : './images/designs/SignUp2.png'
+  },
+  {
+    id : 17,
+    name: '- Event publishing page for MS Club of SLIIT',
+    src : './images/designs/Events.jpg'
+  },
+  {
+    id : 18,
+    name: '- ITP Guide 2021 flyer for MS Club of SLIIT',
+    src : './images/designs/flyer final.jpg'
+  },
+  {
+    id : 19,
+    name: '- Imagine cup speakers flyer for MS Club of SLIIT',
+    src : './images/designs/Imagine cup - speakers.jpg'
+  },
+  {
+    id : 20,
+    name: '- Speaker page design for MS Club of SLIIT',
+    src : './images/designs/Speaker.jpg'
+  },
+  {
+    id : 21,
+    name: '- .NET Conf Speaker flyer for MS Club of SLIIT',
+    src : './images/designs/Sammani.jpg'
+  },
+  {
+    id : 22,
+    name: '- Home Page Design for our Web Application Group Project',
+    src : './images/designs/Home.jpg'
+  },
+
+]
 
 const Designs = () => {
     return (
-        <div className="bg-gray-100">
+      <div className="bg-white dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-64">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
-          <h2 className="text-3xl font-extrabold text-gray-900">"Styles Come and Go. Good Design is a Language , not a style."</h2>
+           <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">"Styles Come and Go. Good Design is a Language , not a style."</h2>
           <br/>
           <br/>
-          <p className="text-1xl font-bold text-gray-900">- Gaming Platform Black Theme</p>
-            <img src="./images/designs/Game black theme.jpg" />
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Gaming Platform Blue Theme</p>
-            <img src="./images/designs/Game blue theme.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Music Player White Theme</p>
-            <img src="./images/designs/Music.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Music Player Dark Theme</p>
-            <img src="./images/designs/Music dark.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Bauhaus Effect Design</p>
-            <img src="./images/designs/bauhaus-modified.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- E-Commerce Site</p>
-            <img src="./images/designs/e-commerce5.jpg" />
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Messaging App</p>
-            <img src="./images/designs/Direct messaging.jpg"/>
-          <br/>
-          <br/>
-          <p className="text-1xl font-bold text-gray-900">- User Profile</p>
-            <img src="./images/designs/User Profile.jpg" />
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Slicer Effect</p>
-            <img src="./images/designs/canve first design - SHIVI.png"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- App Icon Design</p>
-            <img src="./images/designs/App icon.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Calculator Design</p>
-            <img src="./images/designs/Calculator.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Card Checkout Design</p>
-            <img src="./images/designs/Credit card.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- A Landing Page</p>
-            <img src="./images/designs/Landing.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Glassmorphism Effect</p>
-            <img src="./images/designs/Glassmorphism.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Sign UP Page</p>
-            <img src="./images/designs/SignUp Page.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Sign UP Page 2</p>
-            <img src="./images/designs/SignUp2.png"/>
-          <br/>
-          <br/>
-           <p className="text-1xl font-bold text-gray-900">- Event Publishing Page for MS Club SLIIT</p>
-            <img src="./images/designs/Events.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- ITP Guide 2021 Flyer for MS Club SLIIT</p>
-            <img src="./images/designs/flyer final.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Imagine Cup Speakers Flyer for MS Club of SLIIT</p>
-            <img src="./images/designs/Imagine cup - speakers.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Speaker Page Design for MS Club of SLIIT</p>
-            <img src="./images/designs/Speaker.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- .NET Conf Speaker Flyer for MS Club of SLIIT</p>
-            <img src="./images/designs/Sammani.jpg"/>
-          <br/>
-          <br/>
-            <p className="text-1xl font-bold text-gray-900">- Home Page Design for our Web Application</p>
-            <img src="./images/designs/Home.jpg"/>
-          <br/>
-          <br/>
+
+          {images.map((img) => (
+            <a key={img.id} className="group">
+              <div className="w-full aspect-w-1 aspect-h-1  rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8">
+              <p className="text-1xl font-bold text-gray-900 dark:text-white">{img.name}</p>
+                <img
+                  src={img.src}
+                  className="w-full h-full object-center object-cover"
+                />
+              </div>
+              <br/><br/>
+            </a>
+          ))} 
         </div>
       </div>
     </div>

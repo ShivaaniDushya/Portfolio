@@ -1,13 +1,15 @@
 import React from "react";
 
+
 const Github = () => {
     
     return(
+        <div className="bg-white dark:bg-slate-900">
         <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-1">
-        <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">GitHub Username - ShivaaniDushya</h2>
+        <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900 dark:text-white">GitHub Username - ShivaaniDushya</h2>
         <h7 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
         <a href="https://github.com/ShivaaniDushya">
-        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+        <button class="bg-white dark:bg-gray-300 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
         Profile
         </button>
         </a>
@@ -16,7 +18,7 @@ const Github = () => {
 
           <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-3 ">
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/MAD-Y2S2'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Android Mobile application for Stock management system</h2>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -27,7 +29,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/miyurugunarathna/aspire-backend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Learning Management System Backend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -38,7 +40,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/miyurugunarathna/aspire-frontend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Learning Management System Frontend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -49,7 +51,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/Portfolio'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Portfolio</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -60,7 +62,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/msclub-backend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club website Backend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -71,7 +73,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/msclub-admin-panel'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club Website Admin Panel</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -82,7 +84,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/itp-guide-3.0-backend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">ITP Guide session 2 - Backend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -93,7 +95,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/itp-guide-3.0-backend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Redux Toolkit sample</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -106,6 +108,7 @@ const Github = () => {
  
         </div>
         
+        </div>
         </div>
 
     );
