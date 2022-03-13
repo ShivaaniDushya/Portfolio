@@ -77,7 +77,7 @@ const Github = () => {
             <a href='https://github.com/ms-club-sliit/msclub-admin-panel'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club Website Admin Panel</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
-            This is our MS Club official website repository. This repository sontains the Admin Panel implementation.
+            This is our MS Club official website repository. This repository contains the Admin Panel implementation.
                 We use React with typescript and redux for implementation.<br/><br/><br/>
                 <b>https://github.com/ms-club-sliit/msclub-admin-panel</b>
             </h2>
