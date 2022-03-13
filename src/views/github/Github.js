@@ -56,7 +56,7 @@ const Github = () => {
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Portfolio</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is a web application which contains my Portfolio.<br/>
-                I have used React to implement and Firebase to deploy the application.<br/><br/><br/>
+                I have used React to implement and Netlify to deploy the application.<br/><br/><br/>
                 <b>https://github.com/ShivaaniDushya/Portfolio</b><br/><br/>
             </h2>
             </a>
@@ -66,7 +66,7 @@ const Github = () => {
             <a href='https://github.com/ms-club-sliit/msclub-backend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club website Backend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
-                This is our MS Club official website repository. This repository sontains the backend implementation.
+                This is our MS Club official website repository. This repository contains the backend implementation.
                 We use Node with typescript and Mongodb for implementation. <br/><br/><br/>
                 <b>https://github.com/ms-club-sliit/msclub-backend</b>
             </h2>

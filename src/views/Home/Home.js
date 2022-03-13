@@ -549,7 +549,7 @@ const Home = () => {
         
         
         <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
-        ITP Guide 3.0 - Session 2
+        ITP Guide 3.0 - Session 1
         </p>
         <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
         ITP Guide (Industry Training Project) was a special event , which was organized and conducted by the MS Club of SLIIT for the past two years.<br/>
@@ -579,7 +579,7 @@ const Home = () => {
         <div>
           
           <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
-          ITP Guide 3.0 - Session 1
+          ITP Guide 3.0 - Session 2
           </p>
           <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
           In this session, we mainly focussed on giving a hands-on experience with Spring Boot, MongoDB, Angular, Heroku and Firebase. <br/>
