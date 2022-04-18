@@ -217,8 +217,8 @@ const Home = () => {
       <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
       
         <img
-          src="./images/tools/shivi-removebg-preview.png"
-          alt="Shivaanio Dushya"
+          src="./images/speaking/formal1.png"
+          alt="Shivaani Dushya"
           className="rounded-lg"
           width={1000}
           height={1000}
