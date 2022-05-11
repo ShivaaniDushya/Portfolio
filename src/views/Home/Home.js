@@ -183,7 +183,7 @@ const Home = () => {
           Public Speaking.
         </p>
         <br/>
-        <a href="https://drive.google.com/file/d/1lkEhWrXHiOsT6aCZWczGzZps2T_8PENb/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1YjeXJiruQlKx9Z6ZOxq3fpbxB_5kueBa/view?usp=sharing">
           <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
         Download CV
       </button></a>
@@ -498,7 +498,8 @@ const Home = () => {
           {/* <b>IX 2021 - Designathon</b><br/> */}
           I am a Committee member of MS Club of SLIIT. I contribute to the development of the club by Contributing 
           to the GitHub Repository, Designing Flyers and Marketing the Posts. 
-          Also I have done several sessions under different Technologies.
+          Also I have done several sessions under different Technologies. And I am a Board member (Dev Relation) at SESC SLIIT.
+          We have organized several sessions for Software Engineering Student of SLIIT.
           </p> <br/>
 
 
@@ -587,8 +588,33 @@ const Home = () => {
           </p><br/>
 
         </div>
-
         
+      </div>
+
+      <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+            <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+        
+            <img
+              src="./images/speaking/pneumo.png"
+              alt="Shivaanio Dushya"
+              className="bg-gray-100 rounded-lg"
+              width={1000}
+              height={1000}
+            />
+          
+          </div>
+
+        <div>
+          
+          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+          Azure Cloud Streak 5.0
+          </p>
+          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+          This was an event organized by the MS Club of SLIIT, to improve Microsoft-related knowledge among students.
+          As a second speaker of this event, I have done a session on the topic "Detecting Pneumonia using Azure Custom Vision".
+          </p><br/>
+
+        </div>
         
       </div>
 

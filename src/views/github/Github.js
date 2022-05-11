@@ -105,6 +105,50 @@ const Github = () => {
             </h2>
             </a>
             </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/research-project-management-tool-backend'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Research-Project Management Tool Backend</h2><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This Repository contains Node JS, Express JS, Mongo DB. A research management tool
+                 for 4th year undergraduates of SLIIT student and Supervisors.<br/><br/>
+                <b>https://github.com/ShivaaniDushya/research-project-management-tool-backend</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/research-project-management-tool-frontend'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Research-Project Management Tool Frontend</h2><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This Repository contains React JS, Redux Toolkit, Mongo DB. A research management tool
+                 for 4th year undergraduates of SLIIT student and Supervisors.<br/><br/>
+                <b>https://github.com/ShivaaniDushya/research-project-management-tool-frontend</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/hotel-reservation-platform-backend'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Hotel reservation system backend</h2><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This Repository contains Node JS, Express JS, Mongo DB. A hotel reservation system 
+                 for reserve rooms.<br/><br/><br/>
+                <b>https://github.com/ShivaaniDushya/hotel-reservation-platform-backend</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/hotel-reservation-platform-frontend'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Hotel reservation system backend</h2><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This Repository contains React JS, Mongo DB. A hotel reservation system 
+                 for reserve rooms.<br/><br/><br/><br/>
+                <b>https://github.com/ShivaaniDushya/hotel-reservation-platform-frontend</b>
+            </h2>
+            </a>
+            </div>
  
         </div>
         
