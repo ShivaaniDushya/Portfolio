@@ -106,7 +106,7 @@ const Github = () => {
             </a>
             </div>
 
-            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            {/* <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/Zero-Grp/research-project-management-tool-backend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Research-Project Management Tool Backend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -115,9 +115,9 @@ const Github = () => {
                 <b>https://github.com/Zero-Grp/research-project-management-tool-backend</b>
             </h2>
             </a>
-            </div>
+            </div> */}
 
-            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            {/* <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/research-project-management-tool-frontend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Research-Project Management Tool Frontend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -126,9 +126,9 @@ const Github = () => {
                 <b>https://github.com/ShivaaniDushya/research-project-management-tool-frontend</b>
             </h2>
             </a>
-            </div>
+            </div> */}
 
-            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            {/* <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/hotel-reservation-platform-backend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Hotel reservation system backend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -137,9 +137,9 @@ const Github = () => {
                 <b>https://github.com/ShivaaniDushya/hotel-reservation-platform-backend</b>
             </h2>
             </a>
-            </div>
+            </div> */}
 
-            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            {/* <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/hotel-reservation-platform-frontend'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Hotel reservation system backend</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
@@ -148,7 +148,7 @@ const Github = () => {
                 <b>https://github.com/ShivaaniDushya/hotel-reservation-platform-frontend</b>
             </h2>
             </a>
-            </div>
+            </div> */}
  
         </div>
         
