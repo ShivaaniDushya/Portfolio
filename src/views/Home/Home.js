@@ -665,7 +665,7 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/shivaani-dushya-rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.linkedin.com/in/shivaani-dushya-rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
-            <dt className="sm:text-2xl font-medium text-gray-900">Facebook Facebook</dt>
+            <dt className="sm:text-2xl font-medium text-gray-900">Facebook</dt>
             <a href="https://www.facebook.com/shivaani.rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.facebook.com/shivaani.rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
