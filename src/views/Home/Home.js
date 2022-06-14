@@ -292,13 +292,13 @@ const Home = () => {
          </p>  
          </p>
           <p className="mt-12 text-gray-500 dark:text-gray-300">
-          <p className="text-2xl"><b>Co/St'Bridget's Convent</b><br/></p>
+          <p className="text-2xl"><b>Co/St' Bridget's Convent</b><br/></p>
           <i>2016-2018</i><br/>
           I continued my G.C.E Advanced Level Studies in Co/St' Bridget's Convent. 
           And I was in Physical Science Stream. (Combined Mathematics - A, Chemistry - B, Physics - C, General English - A, GIT - A).
           </p> 
           <p className="mt-12 text-gray-500 dark:text-gray-300">
-          <p className="text-2xl"><b>Co/St'Anne's Girls'Maha Vidyalaya</b><br/></p>
+          <p className="text-2xl"><b>Co/St' Anne's Girls'Maha Vidyalaya</b><br/></p>
           <i>2005-2015</i><br/>
           I have completed my G.C.E Oridinary Level Studies in Co/St' Anne's Girls' Maha Vidyalaya. I got 'A' grade for all subjects.
          </p> 
