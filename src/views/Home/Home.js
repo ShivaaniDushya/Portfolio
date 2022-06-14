@@ -72,6 +72,42 @@ import CardContent from '@mui/material/CardContent';
       imageSrc: './images/tools/react.png',
       imageAlt: 'Spring Boot',
     },
+    {
+      id: 12,
+      name: 'NodeJs',
+      imageSrc: './images/tools/node.png',
+      imageAlt: 'NodeJs',
+    },
+    {
+      id: 13,
+      name: 'KoaJs',
+      imageSrc: './images/tools/koa.png',
+      imageAlt: 'KoaJs',
+    },
+    {
+      id: 14,
+      name: 'ExpressJs',
+      imageSrc: './images/tools/express.png',
+      imageAlt: 'ExpressJs',
+    },
+    {
+      id: 15,
+      name: 'Cypress',
+      imageSrc: './images/tools/cypress.png',
+      imageAlt: 'Cypress',
+    },
+    {
+      id: 16,
+      name: 'AWS',
+      imageSrc: './images/tools/aws.jpg',
+      imageAlt: 'Spring Boot',
+    },
+    {
+      id: 17,
+      name: 'Redux Toolkit',
+      imageSrc: './images/tools/redux.png',
+      imageAlt: 'Redux Toolkit',
+    },
     
   ]
 
@@ -146,27 +182,32 @@ import CardContent from '@mui/material/CardContent';
       id: 12,
       name: 'Canva',
       imageSrc: './images/icons/canva.png',
-      imageAlt: 'Spring Boot',
+      imageAlt: 'Canva',
     },
     {
       id: 13,
       name: 'Linux',
       imageSrc: './images/icons/linux.png',
-      imageAlt: 'Spring Boot',
+      imageAlt: 'Linux',
     },
     {
       id: 14,
       name: 'Adobe Photoshop',
       imageSrc: './images/icons/ps.png',
-      imageAlt: 'Spring Boot',
+      imageAlt: 'Adobe Photoshop',
     },
     {
       id: 15,
       name: 'BrowserStack',
       imageSrc: './images/icons/browser.png',
-      imageAlt: 'Spring Boot',
+      imageAlt: 'BrowserStack',
     },
-    
+    {
+      id: 16,
+      name: 'Postman',
+      imageSrc: './images/icons/postman.png',
+      imageAlt: 'Postman',
+    },
   ]
 
 const Home = () => {
