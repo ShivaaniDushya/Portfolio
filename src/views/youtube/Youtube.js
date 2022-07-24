@@ -2,7 +2,7 @@ import React from "react";
 
 const Youtube = ()=>{
     return(
-      <div className="bg-white dark:bg-slate-900">
+      <div className="bg-sky-100 dark:bg-slate-900">
         <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
           <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
       

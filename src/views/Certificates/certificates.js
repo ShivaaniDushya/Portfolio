@@ -20,7 +20,7 @@ const images = [
 
 const Certificates = () => {
     return (
-      <div className="bg-white dark:bg-slate-900">
+      <div className="bg-sky-100 dark:bg-slate-900">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-64">
         <div className="max-w-2xl mx-auto py-16 sm:py-24 lg:py-32 lg:max-w-none">
           {images.map((img) => (
