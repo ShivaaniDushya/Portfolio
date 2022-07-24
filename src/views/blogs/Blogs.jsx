@@ -19,10 +19,10 @@ const Blogs = () => {
 
         <div>
             
-            <p className="mt-5 text-gray-500 sm:text-2xl dark:text-gray-300">
+            <p className="mt-5 text-gray-900 sm:text-2xl dark:text-gray-300">
             What is GitHub Copilot?
             </p>
-            <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+            <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
             This blog is about the GitHub Copilot. GitHub Copilot is an AI programmer which suggests line completions and entire function bodies you type which is 
             powered by the Open AI Codex system.
             </p><br/>
@@ -55,10 +55,10 @@ const Blogs = () => {
 
         <div>
             
-            <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+            <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
             State Management with Redux Toolkit.
             </p>
-            <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+            <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
             This blog is about a brief analytic on Redux vs Redux Toolit. Redux toolkit will be helpful for both beginners and developers 
             who wants to reduce the biolerplate code s in their application.
             </p><br/>

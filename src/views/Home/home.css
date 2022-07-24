@@ -1,26 +1,3 @@
-.main {
-    padding-left: 750px;
-    padding-top: 100px;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: #1F2937;
-    font-size: 18px;
+.dividerColour {
+    border-top: 1px solid rgb(191, 190, 190);  
 }
-
-.main2 {
-    padding-left: 300px;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: sans-serif;
-    padding-top: 50px;
-}
-
-.main3 {
-    padding-left: 500px;
-    padding-top: 100px;
-}
-
-.main4 {
-    background-color: black;
-}
-

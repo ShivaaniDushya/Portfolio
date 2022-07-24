@@ -218,7 +218,7 @@ const Home = () => {
       <div>
         
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Shivaani Dushya Rajkumar</h2>
-        <p className="mt-5 text-gray-500 dark:text-white sm:text-1xl">
+        <p className="mt-5 text-gray-900 dark:text-white sm:text-1xl">
           I am a Software Engineering Undergraduate at SLIIT and a Software Engineering Intern at Pearson Lanka (pvt) ltd. My interests are 
           in Full Stack Development and UI/UX Designing. I am skilled in Public Speaking and Fast Learning. I am a Microsoft Learn Student Ambassador.
         </p>
@@ -269,7 +269,7 @@ const Home = () => {
 
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <br/>
-      <hr />
+      <div className="dividerColour"><hr /></div>
 
        {/* Education  */}
       <div className="pt-32">
@@ -279,24 +279,24 @@ const Home = () => {
           </p></div>
         </div>
         
-        <p className="mt-12 text-gray-500 dark:text-gray-300">
+        <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>Sri Lanka Institute of Information Technology (SLIIT)</b><br/></p>
           <i>2020 - Present</i><br/>
           I am an IT Undergraduate at Sri Lanka Institute of Information Technology (SLIIT). I am doing Software Engineering as my specialization.
           
-          <p className="mt-12 text-gray-500 dark:text-gray-300">
+          <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>British Council of Sri Lanka</b><br/></p>
           <i>2019</i><br/>
           I have completed spoken english course in British Council of Sri Lanka. I got an overall 'A' grade in the Final Examination.
          </p>  
          </p>
-          <p className="mt-12 text-gray-500 dark:text-gray-300">
+          <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>Co/St' Bridget's Convent</b><br/></p>
           <i>2016-2018</i><br/>
           I continued my G.C.E Advanced Level Studies in Co/St' Bridget's Convent. 
           And I was in Physical Science Stream. (Combined Mathematics - A, Chemistry - B, Physics - C, General English - A, GIT - A).
           </p> 
-          <p className="mt-12 text-gray-500 dark:text-gray-300">
+          <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>Co/St' Anne's Girls'Maha Vidyalaya</b><br/></p>
           <i>2005-2015</i><br/>
           I have completed my G.C.E Oridinary Level Studies in Co/St' Anne's Girls' Maha Vidyalaya. I got 'A' grade for all subjects.
@@ -306,7 +306,7 @@ const Home = () => {
 
         {/* Work Experience */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
-      <hr />
+      <div className="dividerColour"><hr /></div>
       
       
       <div >
@@ -315,12 +315,12 @@ const Home = () => {
             Work Experience
           </p></div>
         </div>
-        <p className="mt-12 text-gray-500 dark:text-gray-300">
+        <p className="mt-12 text-gray-900 dark:text-gray-300">
         <p className="text-2xl"><b>Pearson Lanka (pvt) ltd</b></p>
           <i>2021 Dec - Present</i><br/>
           I am a Software Engineering Intern at Pearson Lanka (pvt) ltd.
 
-          <p className="mt-12 text-gray-500 dark:text-gray-300">
+          <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>DFCC Bank PLC</b></p>
           <i>2019-2021</i><br/>
           I worked as a Trainee Banking Assistant at DFCC Bank PLC. I have Experience 
@@ -332,7 +332,7 @@ const Home = () => {
 
         {/* Achievements */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <hr />
+        <div className="dividerColour"><hr /></div>
       
       
       <div>
@@ -342,7 +342,7 @@ const Home = () => {
           </p></div>
 
         </div>
-        <p className="mt-12 text-gray-500 dark:text-gray-300">
+        <p className="mt-12 text-gray-900 dark:text-gray-300">
         <p className="text-2xl"><b>Designathon 2020</b></p>
           We created a UI/UX design for a health and fitness mobile application for the public. 
           We became the finalists and we created another UI/UX design for online learning management system.<br/><br/>
@@ -350,7 +350,7 @@ const Home = () => {
           Health and Fiteness app design
           </button></a>
 
-          <p className="mt-12 text-gray-500 dark:text-gray-300">
+          <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>IX 2021 - Designathon</b></p>
           For the first round of the IX, we created a UI/UX design for a Pet Store mobile application. 
           We became the finalists , and for the final round we created a UI/UX design for a vaccination tracking (covid-19) mobile application.
@@ -359,7 +359,7 @@ const Home = () => {
           Pet Store app design
           </button></a> 
 
-          <p className="mt-12 text-gray-500 dark:text-gray-300">
+          <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>Hackathon 2021</b></p>
           In this competition we came up with a solution for a financial advisory mobile application. We became finalists.
           </p>
@@ -375,7 +375,7 @@ const Home = () => {
 
         {/* Presentation Skills */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32">
-      <hr />
+        <div className="dividerColour"><hr /></div>
 
       
       <div>
@@ -402,10 +402,10 @@ const Home = () => {
 
       <div>
         
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
         IX 2021 - Designathon
         </p>
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
         I have done the Final Presentation speech in the IX 2021 - Designathon Final Competition.
         </p><br/>
         <a href="https://drive.google.com/file/d/1CwN7dL307rWhW9fw1yei0ycsVQIDPY04/view?usp=sharing"><button class="bg-white dark:bg-gray-300 hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
@@ -438,10 +438,10 @@ const Home = () => {
 
       <div>
         
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
         Mini Hackathon 2021
         </p>
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
         I have done the Presentation speech in the Initial Round of Mini Hackathon 2021.
         </p><br/>
         <a href="https://drive.google.com/file/d/1-pb13ZCmyhy_di4L7BvhXVbEi-MWJY-X/view?usp=sharing"><button class="bg-white dark:bg-gray-300 hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
@@ -458,7 +458,7 @@ const Home = () => {
 
         {/* Tools */}
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32">
-      <hr />
+    <div className="dividerColour"><hr /></div>
 
       
         <div className="lg:text-center">
@@ -492,7 +492,7 @@ const Home = () => {
 
         {/* Language Skills */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <hr />
+      <div className="dividerColour"><hr /></div>
 
         <div className="lg:text-center">
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-4xl pt-32">
@@ -520,7 +520,7 @@ const Home = () => {
           ))}
         </div>
             <br/><br/><br/><br/>
-        <hr />
+            <div className="dividerColour"><hr /></div>
         <div>
         
  
@@ -534,7 +534,7 @@ const Home = () => {
         </div>
 
         </div>
-        <p className="mt-12 text-gray-500 dark:text-gray-300 text-2xl ">
+        <p className="mt-12 text-gray-900 dark:text-gray-300 text-2xl ">
           {/* <b>IX 2021 - Designathon</b><br/> */}
           I am a Committee member of MS Club of SLIIT. I contribute to the development of the club by Contributing 
           to the GitHub Repository, Designing Flyers and Marketing the Posts. 
@@ -558,10 +558,10 @@ const Home = () => {
 
           <div>
             
-            <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+            <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
             Level Up Session
             </p>
-            <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+            <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
             I have done the very first level up session, conducted by the MS Club of SLIIT. My topic was 
               "Restful Web Services with Spring Boot"
             </p><br/>
@@ -589,10 +589,10 @@ const Home = () => {
 
         
         
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
         ITP Guide 3.0 - Session 1
         </p>
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
         ITP Guide (Industry Training Project) was a special event , which was organized and conducted by the MS Club of SLIIT for the past two years.<br/>
           On 16th of January 2022, we conducted the ITP Guide for the third consecutive time. The event mainly focuses on
           giving an awareness on how to create industry level projects. <br/>
@@ -619,10 +619,10 @@ const Home = () => {
 
         <div>
           
-          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+          <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
           ITP Guide 3.0 - Session 2
           </p>
-          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+          <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
           In this session, we mainly focussed on giving a hands-on experience with Spring Boot, MongoDB, Angular, Heroku and Firebase. <br/>
           As the first part me and my colleague created a Todo Application using Spring Boot and MongoDB.
           </p><br/>
@@ -646,10 +646,10 @@ const Home = () => {
 
         <div>
           
-          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+          <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
           Azure Cloud Streak 5.0
           </p>
-          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+          <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
           This was an event organized by the MS Club of SLIIT, to improve Microsoft-related knowledge among students.
           As a second speaker of this event, I have done a session on the topic "Detecting Pneumonia using Azure Custom Vision".
           </p><br/>
@@ -673,10 +673,10 @@ const Home = () => {
 
         <div>
           
-          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+          <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
           June Orientation for 3rd year 1st semester students
           </p>
-          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+          <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
           It was 2 days of Orientation program. We mainly focussed on talking about most common issues faced by software engineering students,
           and solutions for them. I have done a session on the topic "How to keep yourself in trending technologies".
           </p><br/>
@@ -685,17 +685,17 @@ const Home = () => {
         
       </div>
 
-          <p className="mt-12 text-gray-500 dark:text-white text-2xl ">
+          <p className="mt-12 text-gray-900 dark:text-white text-2xl ">
           <b>Development Contributions </b>
           </p>
           
-          <p className="mt-12 text-gray-500 dark:text-gray-300 text-lg ">
+          <p className="mt-12 text-gray-900 dark:text-gray-300 text-lg ">
           <b>MS Club Website Admin Panel</b> - <a href="https://github.com/ms-club-sliit/msclub-admin-panel">https://github.com/ms-club-sliit/msclub-admin-panel</a><br/>
           <b>MS Club website Backend</b> - <a href="https://github.com/ms-club-sliit/msclub-backend">https://github.com/ms-club-sliit/msclub-backend</a><br/>
           <b>ITP Guide session 2 - Backend</b> - <a href="https://github.com/ms-club-sliit/itp-guide-3.0-backend">https://github.com/ms-club-sliit/itp-guide-3.0-backend</a><br/>
           </p>
             <br/><br/><br/><br/><br/>
-          <hr/>
+            <div className="dividerColour"><hr /></div>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
@@ -721,27 +721,27 @@ const Home = () => {
           
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">Mobile</dt>
-            <dd className="sm:text-2xl mt-2 text-sm text-gray-500">+94 76 802 4263</dd>
+            <dd className="sm:text-2xl mt-2 text-sm text-gray-900">+94 76 802 4263</dd>
           </div>
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">Email</dt>
-            <dd className="sm:text-2xl mt-2 text-sm text-gray-500">rsdushya@gmail.com</dd>
+            <dd className="sm:text-2xl mt-2 text-sm text-gray-900">rsdushya@gmail.com</dd>
           </div>
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">LinkedIn</dt>
-            <a href="https://www.linkedin.com/in/shivaani-dushya-rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.linkedin.com/in/shivaani-dushya-rajkumar/</dd></a>
+            <a href="https://www.linkedin.com/in/shivaani-dushya-rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-900">https://www.linkedin.com/in/shivaani-dushya-rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">Facebook</dt>
-            <a href="https://www.facebook.com/shivaani.rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.facebook.com/shivaani.rajkumar/</dd></a>
+            <a href="https://www.facebook.com/shivaani.rajkumar/"><dd className="sm:text-2xl mt-2 text-sm text-gray-900">https://www.facebook.com/shivaani.rajkumar/</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">GitHub</dt>
-            <a href="https://github.com/ShivaaniDushya"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://github.com/ShivaaniDushya</dd></a>
+            <a href="https://github.com/ShivaaniDushya"><dd className="sm:text-2xl mt-2 text-sm text-gray-900">https://github.com/ShivaaniDushya</dd></a>
           </div>
           <div className="border-t border-gray-200 pt-4">
             <dt className="sm:text-2xl font-medium text-gray-900">Instagram</dt>
-            <a href="https://www.instagram.com/shivaanidushya/"><dd className="sm:text-2xl mt-2 text-sm text-gray-500">https://www.instagram.com/shivaanidushya/</dd>
+            <a href="https://www.instagram.com/shivaanidushya/"><dd className="sm:text-2xl mt-2 text-sm text-gray-900">https://www.instagram.com/shivaanidushya/</dd>
           </a></div>
           
         
