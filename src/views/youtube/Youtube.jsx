@@ -18,10 +18,10 @@ const Youtube = ()=>{
 
       <div>
         
-        <p className="mt-5 text-gray-500 dark:text-white sm:text-2xl">
+        <p className="mt-5 text-gray-900 dark:text-white sm:text-2xl">
         Introduction to REST API and Postman
         </p>
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
              ITP Guide (Industry Training Project) was a special event , which was organized and conducted by the MS Club of SLIIT for the past two years.
             On 16th of January 2022, we conducted the ITP Guide for the third consecutive time. The event mainly focuses on giving an awareness on how to create industry level projects.
             I have done a session on "Introduction to Restful Web Services and Postman".
@@ -54,10 +54,10 @@ const Youtube = ()=>{
 
       <div>
         
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
         Backend with Spring Boot
         </p>
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
         In ITP Guide 3.0 - session 2, we have created a Todo application using trending technologies and Frameworks.
         Me and Shehan done the session on "Backend with Spring Boot".
         </p><br/>
@@ -88,10 +88,10 @@ const Youtube = ()=>{
 
       <div>
         
-        <p className="mt-5 text-gray-500 dark:text-white sm:text-2xl">
+        <p className="mt-5 text-gray-900 dark:text-white sm:text-2xl">
         Detecting Pneumonia using Azure Custom Vision
         </p>
-        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+        <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
              I have done a session for Azure Cloud Streak 5.0 on how to use Azure custom vision to detect pneumonia patients, using their X-Ray images.
         </p><br/>
         <a href="https://youtu.be/6kgOVsz00FU?t=5061">
