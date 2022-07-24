@@ -220,8 +220,7 @@ const Home = () => {
         <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Shivaani Dushya Rajkumar</h2>
         <p className="mt-5 text-gray-500 dark:text-white sm:text-1xl">
           I am a Software Engineering Undergraduate at SLIIT and a Software Engineering Intern at Pearson Lanka (pvt) ltd. My interests are 
-          in Full Stack Development, Mobile application Development and UI/UX Designing. I Love being a Mathematics Enthusiast. Skilled in 
-          Public Speaking.
+          in Full Stack Development and UI/UX Designing. I am skilled in Public Speaking and Fast Learning. I am a Microsoft Learn Student Ambassador.
         </p>
         <br/>
         <a href="https://drive.google.com/file/d/1G3T5sue56rWUbIRU9pFJX4umqIA4joJq/view?usp=sharing">
@@ -610,7 +609,7 @@ const Home = () => {
         
             <img
               src="./images/speaking/session2.jpg"
-              alt="Shivaanio Dushya"
+              alt="Shivaani Dushya"
               className="bg-gray-100 rounded-lg"
               width={1000}
               height={1000}
@@ -637,7 +636,7 @@ const Home = () => {
         
             <img
               src="./images/speaking/pneumo.png"
-              alt="Shivaanio Dushya"
+              alt="Shivaani Dushya"
               className="bg-gray-100 rounded-lg"
               width={1000}
               height={1000}
@@ -653,6 +652,33 @@ const Home = () => {
           <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
           This was an event organized by the MS Club of SLIIT, to improve Microsoft-related knowledge among students.
           As a second speaker of this event, I have done a session on the topic "Detecting Pneumonia using Azure Custom Vision".
+          </p><br/>
+
+        </div>
+        
+      </div>
+
+      <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+            <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+        
+            <img
+              src="./images/speaking/exploring.png"
+              alt="Shivaani Dushya"
+              className="bg-gray-100 rounded-lg"
+              width={1000}
+              height={1000}
+            />
+          
+          </div>
+
+        <div>
+          
+          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-2xl">
+          June Orientation for 3rd year 1st semester students
+          </p>
+          <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+          It was 2 days of Orientation program. We mainly focussed on talking about most common issues faced by software engineering students,
+          and solutions for them. I have done a session on the topic "How to keep yourself in trending technologies".
           </p><br/>
 
         </div>

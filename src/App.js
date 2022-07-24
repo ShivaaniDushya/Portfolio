@@ -6,6 +6,7 @@ import Designs from './views/Designs/Designs';
 import Blogs from './views/blogs/Blogs';
 import Youtube from './views/youtube/Youtube';
 import GitHub from './views/github/Github';
+import Certificates from './views/Certificates/certificates'; 
 import { useEffect, useState } from 'react';
 
 
@@ -50,6 +51,7 @@ function App() {
         <Route exact path="/blogs" component={Blogs} />
         <Route exact path="/youtube" component={Youtube} />
         <Route exact path="/git" component={GitHub} />
+        <Route exact path="/certificates" component={Certificates} />
       </Switch>
     </Router>
   );

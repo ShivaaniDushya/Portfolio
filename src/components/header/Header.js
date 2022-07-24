@@ -9,6 +9,7 @@ const navigation = [
     { name: 'GIT PROJECTS', href: '/git', current: false },
     { name: 'BLOGS', href: '/blogs', current: false },
     { name: 'YOUTUBE', href: '/youtube', current: false },
+    { name: 'CERTIFICATES', href: '/certificates', current: false },
     { name: 'DESIGNS', href: '/designs', current: false },
   ]
 
