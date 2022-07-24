@@ -224,7 +224,7 @@ const Home = () => {
           Public Speaking.
         </p>
         <br/>
-        <a href="https://drive.google.com/file/d/1YjeXJiruQlKx9Z6ZOxq3fpbxB_5kueBa/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1G3T5sue56rWUbIRU9pFJX4umqIA4joJq/view?usp=sharing">
           <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
         Download CV
       </button></a>
