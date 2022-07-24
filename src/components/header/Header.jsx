@@ -1,7 +1,6 @@
 import React from 'react';
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, MoonIcon, SunIcon, XIcon} from '@heroicons/react/outline'
+import { Disclosure, Menu } from '@headlessui/react'
+import { MenuIcon, MoonIcon, SunIcon, XIcon} from '@heroicons/react/outline'
 import './header.css'
 
 const navigation = [
