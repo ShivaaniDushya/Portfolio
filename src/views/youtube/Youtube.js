@@ -73,6 +73,39 @@ const Youtube = ()=>{
 
       </div>
       </div>
+
+      <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+      
+          <img
+            src="./images/speaking/azure cloud streak.jpeg"
+            alt="Shivaani Dushya"
+            className="bg-gray-100 rounded-lg"
+            width={1000}
+            height={1000}
+          />
+        
+        </div>
+
+      <div>
+        
+        <p className="mt-5 text-gray-500 dark:text-white sm:text-2xl">
+        Detecting Pneumonia using Azure Custom Vision
+        </p>
+        <p className="mt-5 text-gray-500 dark:text-gray-300 sm:text-lg">
+             I have done a session for Azure Cloud Streak 5.0 on how to use Azure custom vision to detect pneumonia patients, using their X-Ray images.
+        </p><br/>
+        <a href="https://youtu.be/6kgOVsz00FU?t=5061">
+        <button class="bg-white dark:bg-gray-300 hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
+          Video Link
+          </button>
+        </a>
+      <br/>
+      <br/>
+
+      <div className="xl:grid-cols-32 xl:gap-x-4">
+
+      </div>
+      </div>
       </div>
       </div>
 
