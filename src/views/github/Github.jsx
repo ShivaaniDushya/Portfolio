@@ -20,7 +20,7 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/MAD-Y2S2'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Android Mobile application for Stock management system</h2>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Android Mobile application for Stock management system</h2><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is an Android application. We used Android studio and SqLite Databse to create the application.
                 It is a Stock management system which tracks the sales , distributions, profits , delivery routes and more.<br/><br/>
@@ -42,7 +42,7 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/miyurugunarathna/aspire-frontend'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Learning Management System Frontend</h2><br/>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Learning Management System Frontend</h2><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is a web application which focuses on creating an online learning platform for the students and
                 teachers due to covid 19 situation. We used Angular for the frontend implementation.<br/><br/>
@@ -56,7 +56,7 @@ const Github = () => {
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Portfolio</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is a web application which contains my Portfolio.<br/>
-                I have used React to implement and Netlify to deploy the application.<br/><br/><br/>
+                I have used React to implement and Netlify to deploy the application.<br/><br/>
                 <b>https://github.com/ShivaaniDushya/Portfolio</b><br/><br/>
             </h2>
             </a>
@@ -78,7 +78,7 @@ const Github = () => {
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club Website Admin Panel</h2><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
             This is our MS Club official website repository. This repository contains the Admin Panel implementation.
-                We use React with typescript and redux for implementation.<br/><br/><br/>
+                We use React with typescript and redux for implementation.<br/><br/>
                 <b>https://github.com/ms-club-sliit/msclub-admin-panel</b>
             </h2>
             </a>
@@ -86,7 +86,7 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/itp-guide-3.0-backend'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">ITP Guide session 2 - Backend</h2><br/>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">ITP Guide session 2 - Backend</h2><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is a web application which have been created to show a demo for the students.
                 Springboot and mongodb were used for implementation.<br/><br/><br/>
@@ -97,7 +97,7 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/itp-guide-3.0-backend'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Redux Toolkit sample</h2><br/>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Redux Toolkit sample</h2><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This Repository contains both Redux and Redux Toolkit Related Codes. Sample example 
                 on how to create state managemnet using Redux vs Redux-Toolkit<br/><br/><br/>
@@ -127,28 +127,6 @@ const Github = () => {
             </h2>
             </a>
             </div>
-
-            {/* <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
-            <a href='https://github.com/ShivaaniDushya/hotel-reservation-platform-backend'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Hotel reservation system backend</h2><br/>
-            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
-                This Repository contains Node JS, Express JS, Mongo DB. A hotel reservation system 
-                 for reserve rooms.<br/><br/><br/>
-                <b>https://github.com/ShivaaniDushya/hotel-reservation-platform-backend</b>
-            </h2>
-            </a>
-            </div> */}
-
-            {/* <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
-            <a href='https://github.com/ShivaaniDushya/hotel-reservation-platform-frontend'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Hotel reservation system backend</h2><br/>
-            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
-                This Repository contains React JS, Mongo DB. A hotel reservation system 
-                 for reserve rooms.<br/><br/><br/><br/>
-                <b>https://github.com/ShivaaniDushya/hotel-reservation-platform-frontend</b>
-            </h2>
-            </a>
-            </div> */}
  
         </div>
         
