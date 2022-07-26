@@ -4,7 +4,7 @@ import { MenuIcon, MoonIcon, SunIcon, XIcon} from '@heroicons/react/outline'
 import './header.css'
 
 const navigation = [
-    { name: 'HOME', href: '/', current: false },
+    { name: 'HOME', href: '/', current: true },
     { name: 'GIT PROJECTS', href: '/git', current: false },
     { name: 'BLOGS', href: '/blogs', current: false },
     { name: 'YOUTUBE', href: '/youtube', current: false },
@@ -21,7 +21,7 @@ const Header = (props) => {
 
     return (
       
-        <Disclosure as="nav" className="bg-gray-800 dark:bg-slate-900 stick">
+        <Disclosure as="nav" className="bg-slate-900 stick">
         {({ open }) => (
           <>
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -46,7 +46,7 @@ const Header = (props) => {
                           key={item.name}
                           href={item.href}
                           className={classNames(
-                            item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                            item.current ? 'bg-gray-700 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                             'px-3 py-2 rounded-md text-sm font-medium'
                           )}
                           aria-current={item.current ? 'page' : undefined}
