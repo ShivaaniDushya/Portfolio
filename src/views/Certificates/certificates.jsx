@@ -3,21 +3,26 @@ import React from "react";
 const images = [
   {
     id : 1,
+    name: '- AWS Well Architected',
+    src : './images/certificate/aws well architected.jpg'
+  },
+  {
+    id : 2,
     name: '- Microsoft Learn Student Ambassador - Alpha',
     src : './images/certificate/MLSA alpha.jpg'
   },
   {
-    id : 2,
+    id : 3,
     name: '- Microsoft Learn Student Ambassador - New member since 2022',
     src : './images/certificate/MLSA new member.jpg'
   },
   {
-    id : 3,
+    id : 4,
     name: '- AWS Cloud practitioner essentials training',
     src : './images/certificate/AWS.jpg'
   },
   {
-    id : 4,
+    id : 5,
     name: '- Cloud computing with Microsoft Azure - Webinar',
     src : './images/certificate/MLSA new member.jpg'
   },
