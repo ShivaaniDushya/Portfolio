@@ -24,7 +24,7 @@ const images = [
   {
     id : 5,
     name: '- Cloud computing with Microsoft Azure - Webinar',
-    src : './images/certificate/MLSA new member.jpg'
+    src : './images/certificate/Cloud computing certificate.jpg'
   },
 ]
 
