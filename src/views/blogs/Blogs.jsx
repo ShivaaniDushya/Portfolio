@@ -5,56 +5,44 @@ const Blogs = () => {
         <div className="bg-sky-100 dark:bg-slate-900">
         <div className="max-w-2xl mx-auto py-24 px-4 grid items-center grid-cols-1 gap-y-16 gap-x-8 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
 
-        <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
-            
+        <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">          
             <img
-                src="/images/speaking/What is GitHub Copilot-poster.jpg"
+                src="/images/speaking/i18next blog.jpg"
                 alt="Shivaani Dushya"
                 className="bg-gray-100 rounded-lg"
                 width={1000}
                 height={1000}
-            />
-            
+            />          
             </div>
-
-        <div>
-            
-            <p className="mt-5 text-gray-900 sm:text-2xl dark:text-gray-300">
-            What is GitHub Copilot?
+        <div>         
+            <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
+            Internationalization using i18next.
             </p>
             <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
-            This blog is about the GitHub Copilot. GitHub Copilot is an AI programmer which suggests line completions and entire function bodies you type which is 
-            powered by the Open AI Codex system.
+            This blog is about about internationalization. Internationalization makes the application’s content very simple, 
+            to localize the application for different target audiences.
             </p><br/>
-            <a href='https://medium.com/ms-club-of-sliit/what-is-github-copilot-c2317a8d686'>
+            <a href='https://medium.com/@rsdushya/internationalization-using-i18next-with-react-typescript-d7c443df3be4'>
             <button class="bg-white dark:bg-gray-300 hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
             Blog Link
             </button>
             </a>
         <br/>
         <br/>
-
         <div className="xl:grid-cols-32 xl:gap-x-4">
-
         </div>
         </div>
-
-
-
-        <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
-            
+    
+        <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">          
             <img
                 src="/images/speaking/redux toolkit.png"
                 alt="Shivaani Dushya"
                 className="bg-gray-100 rounded-lg"
                 width={1000}
                 height={1000}
-            />
-            
+            />          
             </div>
-
-        <div>
-            
+        <div>         
             <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
             State Management with Redux Toolkit.
             </p>
@@ -69,9 +57,35 @@ const Blogs = () => {
             </a>
         <br/>
         <br/>
-
         <div className="xl:grid-cols-32 xl:gap-x-4">
+        </div>
+        </div>
 
+        <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">        
+           <img
+                src="/images/speaking/What is GitHub Copilot-poster.jpg"
+                alt="Shivaani Dushya"
+                className="bg-gray-100 rounded-lg"
+                width={1000}
+                height={1000}
+            />         
+            </div>
+        <div>         
+            <p className="mt-5 text-gray-900 sm:text-2xl dark:text-gray-300">
+            What is GitHub Copilot?
+            </p>
+            <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
+            This blog is about the GitHub Copilot. GitHub Copilot is an AI programmer which suggests line completions and entire function bodies you type which is 
+            powered by the Open AI Codex system.
+            </p><br/>
+            <a href='https://medium.com/ms-club-of-sliit/what-is-github-copilot-c2317a8d686'>
+            <button class="bg-white dark:bg-gray-300 hover:bg-gray-100 text-gray-800 font-medium py-2 px-2 border border-gray-400 rounded shadow sm:text-sm">
+            Blog Link
+            </button>
+            </a>
+        <br/>
+        <br/>
+        <div className="xl:grid-cols-32 xl:gap-x-4">
         </div>
         </div>
 
