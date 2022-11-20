@@ -20,6 +20,50 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/MAD-Y2S2'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Automobile spare parts - Backend</h2><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This is a MERN stack Application which creates a bridge inbetween automobile spare parts buyers and sellers.
+                It has Item management, Order Management, User Management and Questions Management <br/><br/>
+                <b>https://github.com/Rebels-Y3S2/Automobile-spare-parts-backend</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/MAD-Y2S2'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Automobile spare parts - Frontend</h2><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This is a MERN stack Application which creates a bridge inbetween automobile spare parts buyers and sellers.
+                It has Item management, Order Management, User Management and Questions Management <br/><br/>
+                <b>https://github.com/Rebels-Y3S2/Automobile-spare-parts-frontend</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/MAD-Y2S2'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Stop Smoking App - Frontend</h2><br/><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This is a React Native application created with Node JS and MongoDB. This mobile application helps 
+                the smokers to provide some challenges and stop smoking. Other features are user management, diary management and reminder management<br/><br/>
+                <b>https://github.com/Rebels-Y3S2/STOP-SMOKING-MOBILE</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/MAD-Y2S2'>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Stop Smoking App - Backend</h2><br/><br/>
+            <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
+                This is a React Native application created with Node JS and MongoDB. This mobile application helps 
+                the smokers to provide some challenges and stop smoking. Other features are user management, diary management and reminder management<br/><br/>
+                <b>https://github.com/Rebels-Y3S2/Stop-Smoke-Backend</b>
+            </h2>
+            </a>
+            </div>
+
+            <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
+            <a href='https://github.com/ShivaaniDushya/MAD-Y2S2'>
             <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Android Mobile application for Stock management system</h2><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is an Android application. We used Android studio and SqLite Databse to create the application.
@@ -53,7 +97,7 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ShivaaniDushya/Portfolio'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Portfolio</h2><br/>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">Portfolio</h2><br/><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is a web application which contains my Portfolio.<br/>
                 I have used React to implement and Netlify to deploy the application.<br/><br/>
@@ -64,7 +108,7 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/msclub-backend'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club website Backend</h2><br/>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club website Backend</h2><br/><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
                 This is our MS Club official website repository. This repository contains the backend implementation.
                 We use Node with typescript and Mongodb for implementation. <br/><br/><br/>
@@ -75,7 +119,7 @@ const Github = () => {
 
             <div className="bg-white dark:bg-sky-100 shadow overflow-hidden sm:rounded-lg hover:bg-sky-100">
             <a href='https://github.com/ms-club-sliit/msclub-admin-panel'>
-            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club Website Admin Panel</h2><br/>
+            <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 a">MS Club Website Admin Panel</h2><br/><br/>
             <h2 className="font-medium tracking-tight text-gray-900 sm:text-1xl b">
             This is our MS Club official website repository. This repository contains the Admin Panel implementation.
                 We use React with typescript and redux for implementation.<br/><br/>

@@ -208,6 +208,12 @@ const tools = [
     imageSrc: './images/icons/postman.png',
     imageAlt: 'Postman',
   },
+  {
+    id: 17,
+    name: 'Playwright',
+    imageSrc: './images/icons/playwright.png',
+    imageAlt: 'Playwright',
+  },
 ]
 
 const Home = () => {
@@ -282,7 +288,7 @@ const Home = () => {
         <p className="mt-12 text-gray-900 dark:text-gray-300">
           <p className="text-2xl"><b>Sri Lanka Institute of Information Technology (SLIIT)</b><br /></p>
           <i>2020 - Present</i><br />
-          I am an IT Undergraduate at Sri Lanka Institute of Information Technology (SLIIT). I am doing Software Engineering as my specialization.
+          I am a Software Engineering Undergraduate at Sri Lanka Institute of Information Technology (SLIIT).
 
           <p className="mt-12 text-gray-900 dark:text-gray-300">
             <p className="text-2xl"><b>British Council of Sri Lanka</b><br /></p>
@@ -706,6 +712,33 @@ const Home = () => {
               <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
                 This was my very first event after being a Microsoft Learn student Ambassador. 
                 Playwright is a testing tool developed and maintained my Microsft. It is a Node js library with Signle API.
+              </p><br />
+
+            </div>
+
+          </div>
+
+          <div className="max-w-2xl mx-auto py-6 px-4 grid items-center grid-cols-1 gap-y-4 gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+            <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
+
+              <img
+                src="./images/speaking/ignite.jpg"
+                alt="Shivaani Dushya"
+                className="bg-gray-100 rounded-lg"
+                width={1000}
+                height={1000}
+              />
+
+            </div>
+
+            <div>
+
+              <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-2xl">
+                GitHub Copilot and GitHub Codespace
+              </p>
+              <p className="mt-5 text-gray-900 dark:text-gray-300 sm:text-lg">
+                Microsoft Learn Student Ambassadors (including me) and MVPs organized Microsoft Ignite After Party at Microsoft Sri Lanka.
+                I have done a session about "GitHub Copilot and GitHub Codespace" under "Application Development (Low Code / No Code)"
               </p><br />
 
             </div>
