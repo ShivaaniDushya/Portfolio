@@ -225,7 +225,7 @@ const Home = () => {
 
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-6xl">Shivaani Dushya Rajkumar</h2>
           <p className="mt-5 text-gray-900 dark:text-white sm:text-1xl">
-            I am a Software Engineering Undergraduate at SLIIT and a Software Engineering Intern at Pearson Lanka (pvt) ltd. My interests are
+            I am a Software Engineering Undergraduate at SLIIT. My interests are
             in Full Stack Development and UI/UX Designing. I am skilled in Public Speaking and Fast Learning. I am a Microsoft Learn Student Ambassador.
           </p>
           <br />
